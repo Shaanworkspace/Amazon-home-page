@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon.com. Spend less. Smile more.</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+<body>  
+    <!--------------------------------- Header -------------------------------------------------->
+    <header>
+        <div class="navbar">
+
+            <!-- Amazon Logo -->
+            <div class="nav-logo border">
+                <div class="logo"></div>
+            </div>
+
+            <!-- Location -->
+            <div class="nav-address  border">
+                <div class="location-address">
+                    <i class="fa-solid fa-location-dot " id="location-logo"></i>
+                </div>                   
+                <div class="nav-address-logo-location">
+                    <p class="Deliver">Deliver to</p>
+                    <p class="Location">India</p>
+                </div>
+            </div>
+
+            <!-- Search navbar -->
+            <div class="nav-searchBox">
+                <select name="selecter" class="search-select">
+                    <option value="">All</option>
+                </select>
+                <input placeholder="Search Amazon" class="search-input">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass" style="color: #353434;"></i>
+                </div>
+            </div>
+
+            <!-- Language Box -->
+            <div class="language-box border"> 
+                <div class="logo-usa">
+                    <div class="usa-flag"></div>
+                </div>              
+                <select name="selecter" class="language-select" style="border: none;">
+                    <option value="" class="language-select-button">EN</option>
+                </select>
+            </div>
+
+
+            <!-- Sign in -->
+            <div class="div-signin  border">
+                <div class="signin-greating">
+                    <p class="greating">Hello,Shaan</p>
+                </div>
+                <select name="selecter" class="signin-options" style="border: none;">
+                    <option value="" class="">Account & Lists</option>
+                </select>
+            </div>
+            
+
+            <!-- Return -->
+            <div class="div-return  border">
+                <div class="signin-greating">
+                    <p class="greating">Return</p>
+                </div>
+                <select name="selecter" class="signin-options" style="border: none;">
+                    <option value="" class="">& Order</option>
+                </select>
+            </div>
+
+            <!-- Cart -->
+            <div class="div-cart  border">
+                <div class="cart-icon">
+                    <i class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i>
+                </div>
+                <p class="cart">Cart</p>
+            </div>
+                
+            </div>
+        </div>
+
+
+        <!---------------------------------------- Panel---------------------------------------- -->
+        
+        <div class="panel">
+            <div class="panel-left">
+                <div class="panel-menu Panel-border">
+                    <i class="fa-solid fa-bars"></i>
+                    <p>All</p>
+                </div>
+                <div class="panel-left-options">
+                    <div class="panell Panel-border">Today's Deals</div>
+                    <div class="panell Panel-border">Customer</div>
+                    <div class="panell Panel-border">Service</div>
+                    <div class="panell Panel-border">Gift Cards</div>
+                    <div class="panell Panel-border">Self</div>
+                </div>
+            </div>
+            <div class="panel-right">Shop deals in Electronics</div>
+        </div>
+    </header>
+
+    <!-------------------------------- Hero Section ---------------------------------------------->
+    <div class="hero-section">
+        <div class="hero-text-bar">
+            You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery. <a href="" style="color: #007185;">Click here to go to amazon.in</a> 
+        </div>
+    </div>
+
+
+    <!--------------------------------- Shop Section --------------------------------------------->
+    <div class="shop-boxes">
+        <div class="row-outer">
+            <div class="box1">
+                <div class="box">
+                    <div class="box-inside-text">
+                        <p>Gaming accessories</p>
+                    </div>
+                    <div class="box-inside">
+                        <div class="row1">
+                            <div class="box-inside-img">
+                                <div class="box-inside-img1 fits"></div>
+                                <p>Headset</p>
+                            </div>
+                            <div class="box-inside-img">
+                                <div class="box-inside-img2 fits"></div>
+                                <p>Keyboard</p>
+                            </div>
+                        </div>
+                        <div class="row1">
+                            <div class="box-inside-img">
+                                <div class="box-inside-img3 fits"></div>
+                                <p>Computer mic</p>
+                            </div>
+                            <div class="box-inside-img">
+                                <div class="box-inside-img4 fits"></div>
+                                <p>Chair</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-inside" id="below-text">
+                        <p>See more</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box1">
+                <div class="box">
+                    <div class="box-inside-text">
+                        <p>Shop for home essentials</p>
+                    </div>
+                    <div class="box-inside">
+                        <div class="row1">
+                            <div class="box-inside-img">
+                                <div class="box-inside-img5 fits"></div>
+                                <p>Cleaning Tool</p>
+                            </div>
+                            <div class="box-inside-img">
+                                <div class="box-inside-img6 fits"></div>
+                                <p>Bedding</p>
+                            </div>
+                        </div>
+                        <div class="row1">
+                            <div class="box-inside-img">
+                                <div class="box-inside-img7 fits"></div>
+                                <p>Home Storage</p>
+                            </div>
+                            <div class="box-inside-img">
+                                <div class="box-inside-img8 fits"></div>
+                                <p>Hand Decoration</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-inside" id="below-text">
+                        <p>Let show</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box1">
+                <div class="box">
+                    <div class="box-inside-text">
+                        <p>Get your game on</p>
+                    </div>
+                    <div class="box-inside">
+                        <div class="row1">
+                            <div class="box-inside-img">
+                                <div class="box-inside-img9 fits"></div>
+                                <p>Jeans Under 50</p>
+                            </div>
+                            <div class="box-inside-img">
+                                <div class="box-inside-img10 fits"></div>
+                                <p>Top Under 40</p>
+                            </div>
+                        </div>
+                        <div class="row1">
+                            <div class="box-inside-img">
+                                <div class="box-inside-img1 fits"></div>
+                                <p>Lamps</p>
+                            </div>
+                            <div class="box-inside-img">
+                                <div class="box-inside-img2 fits"></div>
+                                <p>Smart Phone</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-inside" id="below-text">
+                        <p>Discover</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row-outer">
+            <div class="box1">
+                <div class="box">
+                    <div class="box-inside-text">
+                        <p>Shop deals in Fashion</p>
+                    </div>
+                    <div class="box-inside">
+                        <div class="row1">
+                            <div class="box-inside-img">
+                                <div class="box-inside-img3 fits"></div>
+                                <p>Ear buds</p>
+                            </div>
+                            <div class="box-inside-img">
+                                <div class="box-inside-img4 fits"></div>
+                                <p>Laptop</p>
+                            </div>
+                        </div>
+                        <div class="row1">
+                            <div class="box-inside-img">
+                                <div class="box-inside-img8 fits"></div>
+                                <p>Earphone</p>
+                            </div>
+                            <div class="box-inside-img">
+                                <div class="box-inside-img5 fits"></div>
+                                <p>Headset</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-inside" id="below-text">
+                        <p>See more</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box1">
+                <div class="box">
+                    <div class="box-inside-text">
+                        <p>Home arrivals under $50</p>
+                    </div>
+                    <div class="box-inside">
+                        <div class="row1">
+                            <div class="box-inside-img">
+                                <div class="box-inside-img10 fits"></div>
+                                <p>T-shirt</p>
+                            </div>
+                            <div class="box-inside-img">
+                                <div class="box-inside-img4 fits"></div>
+                                <p>Shirt</p>
+                            </div>
+                        </div>
+                        <div class="row1">
+                            <div class="box-inside-img">
+                                <div class="box-inside-img6 fits"></div>
+                                <p>Pants</p>
+                            </div>
+                            <div class="box-inside-img">
+                                <div class="box-inside-img10 fits"></div>
+                                <p>Jeans</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-inside" id="below-text">
+                        <p>Grab now</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box1">
+                <div class="box">
+                    <div class="box-inside-text">
+                        <p>Kitchen appliances</p>
+                    </div>
+                    <div class="box-inside">
+                        <div class="row1">
+                            <div class="box-inside-img">
+                                <div class="box-inside-img5 fits"></div>
+                                <p>Buckets</p>
+                            </div>
+                            <div class="box-inside-img">
+                                <div class="box-inside-img7 fits"></div>
+                                <p>Jugs</p>
+                            </div>
+                        </div>
+                        <div class="row1">
+                            <div class="box-inside-img">
+                                <div class="box-inside-img1 fits"></div>
+                                <p>Bottle</p>
+                            </div>
+                            <div class="box-inside-img">
+                                <div class="box-inside-img9 fits"></div>
+                                <p>Home decor</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-inside" id="below-text">
+                        <p>See more</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <!--------------------------------- Personalise Segment Section --------------------------------------------->
+    <div class="personal-segment">
+        <div class="personal-block">
+            <div class="block-text">
+                <p>See personalized recommendations</p>
+            </div>
+            <div class="block-button">
+                <p>Sign in</p>
+            </div>
+            <div class="block-footer">
+                <p>New customer? <a href="" style="">Start here.</a></p>
+            </div>
+        </div>
+    </div>
+
+    <!--------------------------------- Panel Below --------------------------------------------->
+    <div class="panel">
+        <div class="panel-below">
+            <p>Back to top</p>
+        </div>
+    </div>
+    
+    <!--------------------------------- Footer --------------------------------------------->
+    <div class="footer">
+        <div class="foot-panel2">
+            <ul>
+                <p>Get to Know Us</p>
+                <a>Careers</a>
+                <a>Amazon Currency Converter
+                </a>
+                <a>About Amazon</a>
+                <a>Amazon and COVID-19</a>
+                <a>Amazon Devices</a>
+                <a>Amazon Science</a>
+            </ul>
+            <ul>
+                <p>Make Money with Us</p>
+                <a>Careers</a>
+                <a>Blog</a>
+                <a>About Amazon</a>
+                <a>Amazon and COVID-19</a>
+            </ul>
+            <ul>
+                <p>	
+                    Amazon Payment Products</p>
+                <a>Investor Relations</a>
+                <a>Amazon Devices</a>
+                <a>Careers</a>
+                <a>Amazon Currency Converter
+                </a>
+                <a>About Amazon</a>
+                <a>Investor Relations</a>
+                <a>Amazon Devices</a>
+                <a>Help</a>
+            </ul>
+            <ul>
+                <p>	
+                    Let Us Help You
+                    </p>
+                <a>Careers</a>
+                <a>Blog</a>
+                <a>About Amazon</a>
+                <a>Investor Relations</a>
+                <a>Amazon and COVID-19</a>
+                <a>Amazon Currency Converter
+                </a>
+                <a>Help</a>
+            </ul>          
+        </div>
+    </div>
+
+    <!-- Amazon - panel  -->
+    <div class="amazon-panel-below">
+        <div class="panel-below-logo">
+            <div class="below-logo"></div>
+        </div>
+        <div class="english-logo sizer flexerr" style="gap: 10
+        px;">
+            <i class="fa-solid fa-earth-oceania" style="color: white; font-size: 20px; margin-top: 9px; margin-left: 2px;"></i>
+            <select name="" id="" style="border: none; background-color: #232F3E; color: white; font-size: 15px;">
+                <option value="" >English</option>
+            </select>
+        </div>
+        <div class="us-dollor sizer1 flexerr" style="gap: 15px;">
+            <i class="fa-solid fa-dollar-sign" style="color: #ffffff; font-size: 20px; margin-top: 9px; margin-left: 6px;"></i>
+            <select name="" id="" style="border: none; background-color: #232F3E; color: white; font-size: 15px;">
+                <option value="" >USD - U.S.Dollar</option>
+            </select>
+        </div>
+        <div class="below-usa-logo sizer2 flexerr">
+            <div class="logo-usa" id="belowusa">
+                <div class="usa-flag"></div>
+            </div> 
+            <select name="" id="" style="border: none; background-color: #232F3E; color: white; font-size: 15px;">
+                <option value="" >United States</option>
+            </select>
+        </div>
+    </div>
+
+    <!--------------------------------- Below --------------------------------------------->
+    <div class="below">
+        <div class="below-block-row1">
+            <div class="below-blocks">
+                <p>Amazon Music</p>
+                <a href="" id="#anchore">Stream millions of songs</a>
+            </div>
+            <div class="below-blocks">
+                <p>Amazon Ads
+                    </p>
+                <a href="" id="#anchore">Reach customers
+                    wherever they
+                    spend their time</a>
+            </div>
+            <div class="below-blocks">
+                <p>
+                    6pm
+                    
+                    </p>
+                <a href="" id="#anchore">Score deals
+                    on fashion brands</a>
+            </div>
+            <div class="below-blocks">
+                <p>
+                    Amazon Web Services
+                    </p>
+                <a href="" id="#anchore">Scalable Cloud
+                    Computing Services</a>
+            </div>
+            <div class="below-blocks">
+                <p>
+                    Amazon Subscription Boxes
+                   </p>
+                <a href="" id="#anchore"> Top subscription boxes your door</a>
+            </div>
+            <div class="below-blocks">
+                <p>Amazon Music</p>
+                <a href="" id="#anchore">Stream millions of songs</a>
+            </div>
+            <div class="below-blocks">
+                <p>Amazon Music</p>
+                <a href="" id="#anchore">Stream millions of songs</a>
+            </div>
+        </div>
+        <div class="below-block-row1">
+            <div class="below-blocks">
+                <p>Amazon Music</p>
+                <a href="" id="#anchore">Stream millions of songs</a>
+            </div>
+            <div class="below-blocks">
+                <p>Zappos
+                    </p>
+                <a href="" id="#anchore">Shoes &
+                    Clothing</a>
+            </div>
+            <div class="below-blocks">
+                <p>Amazon Music</p>
+                <a href="" id="#anchore">Stream millions of songs</a>
+            </div>
+            <div class="below-blocks">
+                <p>
+                    Prime Video Direct
+                    </p>
+                <a href="" id="#anchore">Video Distribution
+                    Made Easy</a>
+            </div>
+            <div class="below-blocks">
+                <p>Amazon Music</p>
+                <a href="" id="#anchore">Stream millions of songs</a>
+            </div>
+            <div class="below-blocks">
+                <p>IMDb
+                    </p>
+                <a href="" id="#anchore">Movies, TV
+                    & Celebrities</a>
+            </div>
+            <div class="below-blocks">
+                <p>Amazon Music</p>
+                <a href="" id="#anchore">Stream millions of songs</a>
+            </div>
+        </div>
+        <div class="below-block-row1">
+            <div class="below-blocks">
+                <p>Amazon Music</p>
+                <a href="" id="#anchore">Stream millions of songs</a>
+            </div>
+            <div class="below-blocks">
+                <p>
+                    Kindle Direct Publishing
+                    </p>
+                <a href="" id="#anchore">Indie Digital & Print Publishing
+                    Made Easy</a>
+            </div>
+            <div class="below-blocks">
+                <p>Amazon Business
+                    </p>
+                <a href="" id="#anchore">Everything For
+                    Your Businessngs</a>
+            </div>
+            <div class="below-blocks">
+                <p>Amazon Music</p>
+                <a href="" id="#anchore">Stream millions of songs</a>
+            </div>
+            <div class="below-blocks">
+                <p>Amazon Music</p>
+                <a href="" id="#anchore">Stream millions of songs</a>
+            </div>
+            <div class="below-blocks">
+                <p>Veeqo
+                    </p>
+                <a href="" id="#anchore">Stream millions of songs</a>
+            </div>
+            <div class="below-blocks">
+                <p>Amazon Music</p>
+                <a href="" id="#anchore">Shipping Software
+                    Inventory Management</a>
+            </div>
+        </div>
+        <div class="below-block-row1">
+            <div class="below-blocks">
+                <p>Amazon Music</p>
+                <a href="" id="#anchore">Stream millions of songs</a>
+            </div>
+            <div class="below-blocks">
+                <p>Amazon Music</p>
+                <a href="" id="#anchore">Woot!
+                    Deals and
+                    Shenanigans</a>
+            </div>
+            <div class="below-blocks">
+                <p>Amazon Music</p>
+                <a href="" id="#anchore">Stream millions of songs</a>
+            </div>
+            <div class="below-blocks">
+                <p>Woot!
+                   </p>
+                <a href="" id="#anchore">Stream millions of songs</a>
+            </div>
+            <div class="below-blocks">
+                <p>Amazon Music</p>
+                <a href="" id="#anchore">Woot!
+                    Deals and
+                    Shenanigans</a>
+            </div>
+            <div class="below-blocks">
+                <p>Amazon Music</p>
+                <a href="" id="#anchore">Stream millions of songs</a>
+            </div>
+            <div class="below-blocks">
+                <p>Amazon Music</p>
+                <a href="" id="#anchore">Stream millions of songs</a>
+            </div>
+        </div>
+        <div class="below-block-row1">
+            <div class="below-blocks">
+                <p>Amazon Music</p>
+                <a href="" id="#anchore">Stream millions of songs</a>
+            </div>
+            <div class="below-blocks">
+                <p>Amazon Music</p>
+                <a href="" id="#anchore">Stream millions of songs</a>
+            </div>
+            <div class="below-blocks">
+                <p>Amazon Music</p>
+                <a href="" id="#anchore">Stream millions of songs</a>
+            </div>
+            <div class="below-blocks">
+                <p>Amazon Music</p>
+                <a href="" id="#anchore">Stream millions of songs</a>
+            </div>
+            <div class="below-blocks">
+                <p>Amazon Music</p>
+                <a href="" id="#anchore">Stream millions of songs</a>
+            </div>
+            
+        </div>
+        
+    </div>
+    <!--------------------------------- Contact --------------------------------------------->
+    <div class="contact ">
+        <div class="contact-row1 flexerr"  >
+            <a href="" style="color: white; text-decoration: none;">Conditions of Use</a>
+            <a href="" style="color: white; text-decoration: none;">Privacy Notice</a>
+            <a href="" style="color: white; text-decoration: none;">Consumer Health Data Privacy Disclosure</a>
+            <a href="" style="color: white; text-decoration: none;">Your Ads Privacy Choices✨</a>
+
+        </div>
+        <div class="conatct-row2 flexerr">
+            <p>© 1996-2025, Amazon.com, Inc. or its affiliates
+            </p>
+        </div>
+    </div>
+</body>
+</html>
