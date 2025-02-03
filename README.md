@@ -14,6 +14,13 @@
 </ul><ul>
 <li>font-Awesome</li>
 </ul><h2>Screenshots</h2>
-<hr><p><img src="https://github.com/Shaanworkspace/Amazon-home-page/blob/main/image.png" alt=""></p><h2>Setup</h2>
+<hr><p>
+  <img src="https://github.com/user-attachments/assets/93ab366a-9d42-47ea-b9c0-261eb0b78064" alt="">
+  
+  <img src="https://github.com/Shaanworkspace/Amazon-home-page/blob/main/image.png" alt="">
+  <img src="https://github.com/user-attachments/assets/7378a861-93a0-4bed-b63c-d0237cb56f19" alt="">
+  <img src="https://github.com/user-attachments/assets/30f25dac-8046-40fd-bde1-90ff9ec9a658" alt="">
+
+</p><h2>Setup</h2>
 <hr><p>A web browser (Chrome, Firefox, Edge)</p>
 <p>A code editor (VS Code, Sublime Text, etc.)</p>
